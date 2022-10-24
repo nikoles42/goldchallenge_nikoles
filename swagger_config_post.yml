@@ -1,0 +1,23 @@
+swagger: '2.0'
+tags:
+  - name : API SWAGGER
+get :
+  description: None
+response:
+  - '200':
+    description: Succesful response
+  - '400':
+    description: Bad Request
+  - '500':
+    description: Server error
+parameters:
+  -name: body
+    in: body
+    schema:
+    id  : text_remove
+    required:
+    - text
+    properties:
+    text:
+    type: string
+    description: input your text

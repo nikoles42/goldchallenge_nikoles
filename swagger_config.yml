@@ -1,0 +1,26 @@
+swagger: '2.0'
+tags:
+  - name: API SWAGGER
+get:
+  - description: None
+response:
+  - '200':
+    description: Succesful response
+  - '400':
+    description: Bad Request
+  - '500':
+    description: Server error
+parameters:
+  # - name: text
+  #   in: query
+  #   type: string
+  #   example: budi
+  # - name: file
+  #   in: formData
+  #   description: CSV file with orders to be imported
+  #   required: true
+  #   type: file
+  - name: file
+    in : formData
+    type : file
+    required: false

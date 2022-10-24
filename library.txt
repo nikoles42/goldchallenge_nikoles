@@ -1,0 +1,6 @@
+pandas
+numpy
+unidecode
+flask
+linecache
+flasgger

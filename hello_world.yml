@@ -1,0 +1,12 @@
+tags:
+  - name: return_text
+get:
+    no_hp : nohp_input
+responses:
+  '200': 
+    no_hp : sussecful response
+  '400':
+    no_hp : bad request
+  '500':
+    no_hp : internal server error
+    
